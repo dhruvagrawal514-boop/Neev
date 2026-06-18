@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page_title">Neev — AI Market Intelligence & Crop Planning for Indian Farmers</title>
+  <meta name="description" content="AI-powered market intelligence and soil-based crop recommendations for 100M+ Indian smallholder farmers — in Hindi and 21 other languages.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 5.1A8.9 8.9 0 0 1 18 15.5C14.3 15.5 13.2 16.4 11 20Z'/%3E%3Cpath d='M2 22l7.2-7.2'/%3E%3C/svg%3E">  
+  <!-- Google Fonts Preconnects for Regional Scripts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="kisanai-root">
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="logo">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-7 7-9 16-9 0 9-2 16-9 16z"/><path d="M2 22c4-3 6-7 9-12"/></svg>
+          <span>Neev</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#features" data-section="features" data-i18n="nav_features">Features</a>
+          <a href="#how" data-section="how" data-i18n="nav_how">How It Works</a>
+          <a href="#impact" data-section="impact" data-i18n="nav_impact">Impact</a>
+          <a href="#demo" data-section="demo" data-i18n="nav_demo">Demo</a>
+        </div>
+        <div class="nav-actions">
+          <select id="globalLangSelect" class="lang-select" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+            <option value="bn">বাংলা</option>
+            <option value="mr">मराठी</option>
+          </select>
+          <a href="#demo" class="btn btn-gold btn-sm nav-cta" data-i18n="nav_cta">Try Demo →</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <a href="#features" data-section="features" data-i18n="nav_features">Features</a>
+        <a href="#how" data-section="how" data-i18n="nav_how">How It Works</a>
+        <a href="#impact" data-section="impact" data-i18n="nav_impact">Impact</a>
+        <a href="#demo" data-section="demo" data-i18n="nav_demo">Demo</a>
+        <a href="#demo" class="btn btn-gold btn-sm" data-i18n="nav_cta">Try Demo →</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="hero" class="hero">
+      <div class="particles" id="particles"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow" data-i18n="hero_eyebrow">AI · Market Intelligence · Bharat</span>
+        <h1 class="display" data-i18n="hero_title">Know the market.<br/>Read the soil.<br/><span class="gold-italic">Grow what pays.</span></h1>
+        <p class="lede" data-i18n="hero_lede">AI-powered crop planning based on historical mandi prices and soil type — so Indian farmers grow what the market actually needs, in Hindi and 21 other languages.</p>
+        <div class="hero-cta">
+          <a href="#demo" class="btn btn-gold" data-i18n="hero_cta_live">See Live Demo →</a>
+          <a href="#how" class="btn btn-outline" data-i18n="hero_cta_watch">How It Works</a>
+        </div>
+        <div class="floating-stats">
+          <div class="stat-badge" data-i18n="stat_underserved"><span class="dot"></span>7,000+ mandis tracked</div>
+          <div class="stat-badge" data-i18n="stat_yield"><span class="dot"></span>20–30% income gain possible</div>
+          <div class="stat-badge" data-i18n="stat_langs"><span class="dot"></span>22 Indian languages supported</div>
+        </div>
+      </div>
+      <div class="scroll-hint" data-i18n="scroll_hint">scroll ↓</div>
+    </header>
+
+    <!-- PROBLEM -->
+    <section class="section" id="problem">
+      <div class="container">
+        <h2 class="section-title" data-i18n="prob_title">Why Farmers <span class="gold-italic">Lose Money</span> Every Season</h2>
+        <p class="section-sub" data-i18n="prob_sub">The problem isn't just the crop — it's growing the wrong crop at the wrong time without knowing what the market wants.</p>
+        <div class="grid grid-3">
+          <div class="glass-card">
+            <div class="card-icon">📉</div>
+            <div class="big-stat" data-i18n="prob_oversupply_stat">Oversupply</div>
+            <h3 data-i18n="prob_oversupply_title">Market Blindness</h3>
+            <p data-i18n="prob_oversupply_desc">When everyone grows wheat after a good year, prices crash. Farmers have no way to see what last year's production data means for this season's prices.</p>
+          </div>
+          <div class="glass-card">
+            <div class="card-icon">🌱</div>
+            <div class="big-stat" data-i18n="prob_soilmatch_stat">Mismatch</div>
+            <h3 data-i18n="prob_soilmatch_title">Wrong Crop, Wrong Soil</h3>
+            <p data-i18n="prob_soilmatch_desc">Farmers often grow what their neighbors grow, not what their soil type can optimally produce. A poor soil-crop match means lower yields even with perfect farming.</p>
+          </div>
+          <div class="glass-card">
+            <div class="card-icon">📵</div>
+            <div class="big-stat" data-i18n="prob_data_stat">No Data</div>
+            <h3 data-i18n="prob_data_title">Inaccessible Intelligence</h3>
+            <p data-i18n="prob_data_desc">Mandi price history, production trends, and crop alternatives exist in government portals — but are locked behind English interfaces and require internet and data literacy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="container">
+        <h2 class="section-title" data-i18n="how_title">From Soil Type to <span class="gold-italic">Smart Crop Plan</span></h2>
+        <p class="section-sub" data-i18n="how_sub">Neev reads historical market data and matches it with your land's soil profile to recommend the most profitable crops for this season.</p>
+        <div class="flow">
+          <div class="flow-step"><div class="circle">01</div><h4 data-i18n="how_step1_title">Enter Your Land Details</h4><p data-i18n="how_step1_desc">Select your state, district, and soil type. No internet or English needed.</p></div>
+          <div class="flow-step"><div class="circle">02</div><h4 data-i18n="how_step2_title">AI Reads Market History</h4><p data-i18n="how_step2_desc">Neev pulls 3–5 years of mandi price data and production volumes from Agmarknet & eNAM.</p></div>
+          <div class="flow-step"><div class="circle">03</div><h4 data-i18n="how_step3_title">Oversupply Detection</h4><p data-i18n="how_step3_desc">Identifies which crops had high production last year and are likely to fetch lower prices.</p></div>
+          <div class="flow-step"><div class="circle">04</div><h4 data-i18n="how_step4_title">Crop Alternatives Matched</h4><p data-i18n="how_step4_desc">Recommends alternative crops that suit your soil type and face less market competition.</p></div>
+          <div class="flow-step"><div class="circle">05</div><h4 data-i18n="how_step5_title">Voice Advisory Delivered</h4><p data-i18n="how_step5_desc">Full plan delivered in your language — via voice, WhatsApp, or on-screen text.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEMO -->
+    <section class="section" id="demo">
+      <div class="container">
+        <h2 class="section-title" data-i18n="demo_title">Try Neev <span class="gold-italic">Right Now</span></h2>
+        <p class="section-sub" data-i18n="demo_sub">Select your state, soil type, and the crop you planned to grow — Neev will show you what the market data says and what to grow instead.</p>
+        <div class="demo-panel glass-card">
+          <div class="demo-left">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="demo-label" data-i18n="demo_state_label">State</label>
+                <select id="state" class="demo-select">
+                  <option value="up" data-i18n="state_up">Uttar Pradesh</option>
+                  <option value="pb" data-i18n="state_pb">Punjab</option>
+                  <option value="mh" data-i18n="state_mh">Maharashtra</option>
+                  <option value="mp" data-i18n="state_mp">Madhya Pradesh</option>
+                  <option value="rj" data-i18n="state_rj">Rajasthan</option>
+                  <option value="hr" data-i18n="state_hr">Haryana</option>
+                  <option value="ap" data-i18n="state_ap">Andhra Pradesh</option>
+                  <option value="tn" data-i18n="state_tn">Tamil Nadu</option>
+                  <option value="wb" data-i18n="state_wb">West Bengal</option>
+                  <option value="br" data-i18n="state_br">Bihar</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="demo-label" data-i18n="demo_soil_label">Soil Type</label>
+                <select id="soil" class="demo-select">
+                  <option value="alluvial" data-i18n="soil_alluvial">Alluvial (Domat)</option>
+                  <option value="black" data-i18n="soil_black">Black (Regur)</option>
+                  <option value="red" data-i18n="soil_red">Red & Laterite</option>
+                  <option value="sandy" data-i18n="soil_sandy">Sandy / Loamy</option>
+                  <option value="clay" data-i18n="soil_clay">Clay / Waterlogged</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="demo-label" data-i18n="demo_planned_crop_label">Crop You Planned to Grow</label>
+                <select id="crop" class="demo-select">
+                  <option value="wheat" data-i18n="crop_wheat">Wheat</option>
+                  <option value="rice" data-i18n="crop_rice">Rice / Paddy</option>
+                  <option value="sugarcane" data-i18n="crop_sugarcane">Sugarcane</option>
+                  <option value="cotton" data-i18n="crop_cotton">Cotton</option>
+                  <option value="maize" data-i18n="crop_maize">Maize</option>
+                  <option value="soybean" data-i18n="crop_soybean">Soybean</option>
+                  <option value="onion" data-i18n="crop_onion">Onion</option>
+                  <option value="tomato" data-i18n="crop_tomato">Tomato</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="demo-label" data-i18n="demo_season_label">Season</label>
+                <select id="season" class="demo-select">
+                  <option value="kharif" data-i18n="season_kharif">Kharif (Jun–Oct)</option>
+                  <option value="rabi" data-i18n="season_rabi">Rabi (Nov–Mar)</option>
+                  <option value="zaid" data-i18n="season_zaid">Zaid (Apr–Jun)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="lang-row">
+              <span class="demo-label" data-i18n="demo_lang_label">Language</span>
+              <div class="lang-chips" id="langChips">
+                <button class="chip active" data-lang="Hindi">Hindi</button>
+                <button class="chip" data-lang="Tamil">Tamil</button>
+                <button class="chip" data-lang="Telugu">Telugu</button>
+                <button class="chip" data-lang="Bengali">Bengali</button>
+                <button class="chip" data-lang="Marathi">Marathi</button>
+              </div>
+            </div>
+
+            <button class="btn btn-gold btn-lg full" id="advisoryBtn" data-i18n="demo_cta">Get Market Intelligence →</button>
+          </div>
+
+          <div class="demo-right">
+            <div class="advisory-card" id="advisoryCard">
+              <div class="adv-empty">
+                <div class="pulse-dot"></div>
+                <p data-i18n="adv_empty_title">Your crop & market intelligence report will appear here.</p>
+                <small data-i18n="adv_empty_sub">Pick your inputs and tap <strong>Get Market Intelligence</strong>.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="container">
+        <h2 class="section-title" data-i18n="feat_title">Built for <span class="gold-italic">Bharat's Reality</span></h2>
+        <p class="section-sub" data-i18n="feat_sub">Every feature designed around what Indian smallholder farmers actually have — a cheap smartphone, patchy internet, and years of farming instinct.</p>
+        <div class="grid grid-3">
+          <div class="glass-card feat"><div class="feat-icon">📊</div><h3 data-i18n="feat1_title">Mandi Price History</h3><p data-i18n="feat1_desc">5-year price trends from 7,000+ mandis via Agmarknet & eNAM — shown as simple signals, not spreadsheets.</p></div>
+          <div class="glass-card feat"><div class="feat-icon">🗣️</div><h3 data-i18n="feat2_title">22 Languages</h3><p data-i18n="feat2_desc">Powered by the Bhashini API — reads and speaks in Hindi, Tamil, Telugu, Bengali, Marathi and more.</p></div>
+          <div class="glass-card feat"><div class="feat-icon">🌾</div><h3 data-i18n="feat3_title">Soil-Matched Alternatives</h3><p data-i18n="feat3_desc">Recommends 2–3 alternative crops that fit your exact soil type and have stronger market prospects.</p></div>
+          <div class="glass-card feat"><div class="feat-icon">📴</div><h3 data-i18n="feat4_title">Offline Capable</h3><p data-i18n="feat4_desc">Core recommendations work without internet using cached market data updated weekly via cloud sync.</p></div>
+          <div class="glass-card feat"><div class="feat-icon">📱</div><h3 data-i18n="feat5_title">WhatsApp Delivery</h3><p data-i18n="feat5_desc">Full crop plan sent directly to WhatsApp — the app farmers already use every day.</p></div>
+          <div class="glass-card feat"><div class="feat-icon">🏛️</div><h3 data-i18n="feat6_title">Government Data Integration</h3><p data-i18n="feat6_desc">Live sync with Agmarknet, eNAM, and ICAR soil databases. Trusted data, simplified delivery.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATA PORTALS -->
+    <section class="section" id="portals">
+      <div class="container">
+        <h2 class="section-title" data-i18n="portals_title">Powered by <span class="gold-italic">Real Government Data</span></h2>
+        <p class="section-sub" data-i18n="portals_sub">Neev connects to official Indian government data portals so every recommendation is backed by verified, real-world market information.</p>
+        <div class="grid grid-3">
+          <div class="glass-card feat">
+            <div class="feat-icon">🏪</div>
+            <h3 data-i18n="portal1_title">Agmarknet</h3>
+            <p data-i18n="portal1_desc">Daily mandi arrival and price data from 7,000+ agricultural markets across India. Covers 300+ commodities.</p>
+            <a href="https://agmarknet.gov.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+          <div class="glass-card feat">
+            <div class="feat-icon">🔗</div>
+            <h3 data-i18n="portal2_title">eNAM</h3>
+            <p data-i18n="portal2_desc">National Agriculture Market — live trading data from 1,000+ mandis. Real-time price discovery across states.</p>
+            <a href="https://enam.gov.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+          <div class="glass-card feat">
+            <div class="feat-icon">🗂️</div>
+            <h3 data-i18n="portal3_title">data.gov.in</h3>
+            <p data-i18n="portal3_desc">India's open government data platform — crop production statistics, soil health card data, and district-level agricultural reports.</p>
+            <a href="https://data.gov.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+          <div class="glass-card feat">
+            <div class="feat-icon">🌱</div>
+            <h3 data-i18n="portal4_title">ICAR Knowledge Base</h3>
+            <p data-i18n="portal4_desc">Indian Council of Agricultural Research — soil classification maps, crop suitability guides, and agronomic best practices by region.</p>
+            <a href="https://icar.org.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+          <div class="glass-card feat">
+            <div class="feat-icon">☁️</div>
+            <h3 data-i18n="portal5_title">IMD Weather API</h3>
+            <p data-i18n="portal5_desc">India Meteorological Department forecasts — rainfall and temperature predictions by district to factor into seasonal planning.</p>
+            <a href="https://mausam.imd.gov.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+          <div class="glass-card feat">
+            <div class="feat-icon">💳</div>
+            <h3 data-i18n="portal6_title">PM-Kisan / PMFBY</h3>
+            <p data-i18n="portal6_desc">Integration with PM-Kisan farmer database and Pradhan Mantri Fasal Bima Yojana for crop insurance eligibility checks.</p>
+            <a href="https://pmfby.gov.in" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:14px" data-i18n="portal_visit">Visit Portal ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="section impact" id="impact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="impact_title">Impact at <span class="gold-italic">National Scale</span></h2>
+        <div class="impact-grid">
+          <div class="impact-stat"><div class="counter" data-target="100" data-suffix="M+">0</div><p data-i18n="impact_lbl1">Target Farmers</p></div>
+          <div class="impact-stat"><div class="counter" data-target="7000" data-suffix="+">0</div><p data-i18n="impact_lbl2">Mandis Tracked</p></div>
+          <div class="impact-stat"><div class="counter" data-target="20" data-suffix="%" data-prefix="15–">0</div><p data-i18n="impact_lbl3">Income Gain Possible</p></div>
+          <div class="impact-stat"><div class="counter" data-target="22" data-suffix="">0</div><p data-i18n="impact_lbl4">Indian Languages</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH -->
+    <section class="section" id="tech">
+      <div class="container">
+        <h2 class="section-title" data-i18n="tech_title">Powered By <span class="gold-italic">Cutting-Edge Technology</span></h2>
+        <p class="section-sub" data-i18n="tech_sub">A production-grade stack built for speed, scale, and rural India's connectivity reality.</p>
+      </div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <span class="pill">⚛️ React Native</span>
+          <span class="pill">⚡ FastAPI</span>
+          <span class="pill">📊 Agmarknet API</span>
+          <span class="pill">🔗 eNAM API</span>
+          <span class="pill">🗣️ Bhashini API</span>
+          <span class="pill">💬 WhatsApp Business API</span>
+          <span class="pill">🐘 PostgreSQL + PostGIS</span>
+          <span class="pill">🌱 ICAR Soil Database</span>
+          <span class="pill">📚 RAG + data.gov.in</span>
+          <span class="pill">☁️ IMD Weather API</span>
+          <span class="pill">🧠 On-device LLM (GGUF)</span>
+          <span class="pill">⚛️ React Native</span>
+          <span class="pill">⚡ FastAPI</span>
+          <span class="pill">📊 Agmarknet API</span>
+          <span class="pill">🔗 eNAM API</span>
+          <span class="pill">🗣️ Bhashini API</span>
+          <span class="pill">💬 WhatsApp Business API</span>
+          <span class="pill">🐘 PostgreSQL + PostGIS</span>
+          <span class="pill">🌱 ICAR Soil Database</span>
+          <span class="pill">📚 RAG + data.gov.in</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION -->
+    <section class="section vision">
+      <div class="world-map" aria-hidden="true">
+        <svg viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <radialGradient id="glow"><stop offset="0%" stop-color="#C9A84C" stop-opacity="0.9"/><stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/></radialGradient>
+          </defs>
+          <ellipse cx="540" cy="200" rx="20" ry="20" fill="url(#glow)"/>
+          <ellipse cx="620" cy="240" rx="18" ry="18" fill="url(#glow)"/>
+          <ellipse cx="430" cy="260" rx="22" ry="22" fill="url(#glow)"/>
+          <circle cx="540" cy="200" r="3" fill="#C9A84C"/>
+          <circle cx="620" cy="240" r="3" fill="#C9A84C"/>
+          <circle cx="430" cy="260" r="3" fill="#C9A84C"/>
+        </svg>
+      </div>
+      <div class="container vision-inner">
+        <h2 class="display sm" data-i18n="vision_text">
+          <span class="muted">Today:</span> Indian smallholders.<br/>
+          <span class="muted">Tomorrow:</span> Southeast Asia.<br/>
+          <span class="gold-italic">2030:</span> The Global South's largest AI-powered crop market intelligence platform.
+        </h2>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-7 7-9 16-9 0 9-2 16-9 16z"/><path d="M2 22c4-3 6-7 9-12"/></svg>
+            <span>Neev</span>
+          </a>
+          <p class="tagline gold-italic" data-i18n="footer_tagline">Build. Break. Brighten.</p>
+        </div>
+        <div class="footer-meta">
+          <p data-i18n="footer_meta1"><strong>The Tech Trinity</strong> — Dhruv · Anshika · Tanish</p>
+          <p data-i18n="footer_meta2">MSIT · Hack: The Mind, NSUT · Track ID 6</p>
+        </div>
+      </div>
+      <div class="footer-bottom"><span data-i18n="footer_bottom">© 2026 Neev Prototype</span></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
