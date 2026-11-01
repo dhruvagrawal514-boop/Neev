@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌱 Neev
+# Neev
 
 ### Know the market. Read the soil. Grow what pays.
 
@@ -14,27 +14,26 @@ AI-powered crop planning for Indian farmers, built on historical mandi prices an
 ![Firebase Hosting](https://img.shields.io/badge/Firebase_Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Open Data](https://img.shields.io/badge/Data-Agmarknet_·_data.gov.in-6A994E?style=flat-square)
 
-<img src="docs/screenshot.png" alt="Neev landing page" width="100%" />
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [About](#-about)
-- [How It Works](#-how-it-works)
-- [Key Features](#-key-features)
-- [Data Sources](#-data-sources)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Roadmap](#-roadmap)
-- [Author](#-author)
+- [About](#about)
+- [How It Works](#how-it-works)
+- [Key Features](#key-features)
+- [Data Sources](#data-sources)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Roadmap](#roadmap)
+- [Author](#author)
 
 ---
 
-## 💡 About
+## About
 
 **Why farmers lose money every season:**
 
@@ -46,7 +45,7 @@ AI-powered crop planning for Indian farmers, built on historical mandi prices an
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```mermaid
 flowchart LR
@@ -64,7 +63,7 @@ flowchart LR
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
@@ -78,7 +77,7 @@ flowchart LR
 
 ---
 
-## 🏛️ Data Sources
+## Data Sources
 
 Neev is designed around public Indian government data:
 
@@ -93,7 +92,7 @@ Neev is designed around public Indian government data:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -104,21 +103,19 @@ Neev is designed around public Indian government data:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Neev/
 ├── index.html       # Landing page, how-it-works, live demo and impact sections
 ├── style.css        # Design system and responsive layout
 ├── script.js        # Demo logic, price analysis, recommendations, language switcher
-├── firebase.json    # Firebase Hosting configuration
-└── docs/
-    └── screenshot.png
+└── firebase.json    # Firebase Hosting configuration
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Prerequisites:** a modern browser and [Node.js](https://nodejs.org) (only for the local server).
 
@@ -143,7 +140,7 @@ firebase deploy
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Landing page and interactive crop-planning demo
 - [x] Oversupply detection and soil-matched alternatives
@@ -156,7 +153,7 @@ firebase deploy
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhruv Agrawal**
 
