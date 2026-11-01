@@ -19,20 +19,6 @@ AI-powered crop planning for Indian farmers, built on historical mandi prices an
 
 ---
 
-## Table of Contents
-
-- [About](#about)
-- [How It Works](#how-it-works)
-- [Key Features](#key-features)
-- [Data Sources](#data-sources)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Roadmap](#roadmap)
-- [Author](#author)
-
----
-
 ## About
 
 **Why farmers lose money every season:**
